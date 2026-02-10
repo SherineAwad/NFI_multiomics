@@ -24,12 +24,7 @@ rule all:
         config["project_name"] + config["filter_suffix"] + config["umap_suffix"] + "_Combined_UMAP.pdf",
         config["project_name"] + config["filter_suffix"] + config["umap_suffix"] + "_ATAC_UMAP.pdf",
         config["project_name"] + config["filter_suffix"] + config["umap_suffix"] + "_RNA_UMAP.pdf",
-
-        # Marker UMAPs
-        expand(
-            config["project_name"] + config["filter_suffix"] + config["umap_suffix"] + "_{marker}_UMAP.pdf",
-            marker=read_markers(config['MarkerGenes'])
-        )
+        "markers_done.txt"
 
 
 rule preprocess:
@@ -91,13 +86,14 @@ rule plotMarkers:
         config["project_name"] + config["filter_suffix"] + config["umap_suffix"],
         marker_file=config['MarkerGenes']
     output:
-        expand(
-            config["project_name"] + config["filter_suffix"] + config["umap_suffix"] + "_{marker}_UMAP.pdf",
-            marker=read_markers(config['MarkerGenes'])
-        )
+         "markers_done.txt" 
     params:
         project=config["project_name"] + config["filter_suffix"] + config["umap_suffix"],
         markers=config['MarkerGenes']
     shell:
-        "Rscript src/plotMarkers.R --project_name {params.project} --markers {params.markers}"
+        """
+        Rscript src/plotMarkers.R --project_name {params.project} --markers {params.markers}
+        touch {output}
+        """  
+
 
