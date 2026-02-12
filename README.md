@@ -101,6 +101,9 @@ We used the following filtering criteria:
 
 ## Marker genes 
 
+
+<img src="figures/NFI_filtered_UMAP_Neurog2_UMAP.png?v=3" alt="Neurog2" width="33%"><img src="figures/NFI_filtered_UMAP_Ascl1_UMAP.png" alt ="Ascl1" width="33%"><img src="figures/NFI_filtered_UMAP_Tie1_UMAP.png?v=3" alt="tie1" width="33%">
+
 <img src="figures/NFI_filtered_UMAP_Pax6_UMAP.png?v=3" alt="pax6" width="33%"><img src="figures/NFI_filtered_UMAP_Rlbp1_UMAP.png?v=3" alt="rlbp1" width="33%"><img src="figures/NFI_filtered_UMAP_Prdx6_UMAP.png?v=3" alt="prdx6" width="33%">
 
 <img src="figures/NFI_filtered_UMAP_Abca8a_UMAP.png?v=3" alt="abca8a" width="33%"><img src="figures/NFI_filtered_UMAP_Notch1_UMAP.png?v=3" alt="notch1" width="33%"><img src="figures/NFI_filtered_UMAP_Hes1_UMAP.png?v=3" alt="hes1" width="33%">
@@ -127,8 +130,7 @@ We used the following filtering criteria:
 
 <img src="figures/NFI_filtered_UMAP_Emx1_UMAP.png?v=3" alt="emx1" width="33%"><img src="figures/NFI_filtered_UMAP_Rpe65_UMAP.png?v=3" alt="rpe65" width="33%"><img src="figures/NFI_filtered_UMAP_Foxn4_UMAP.png?v=3" alt="foxn4" width="33%">
 
-<img src="figures/NFI_filtered_UMAP_Chat_UMAP.png?v=3" alt="chat" width="33%"><img src="figures/NFI_filtered_UMAP_Tie1_UMAP.png?v=3" alt="tie1" width="33%">
-
+<img src="figures/NFI_filtered_UMAP_Chat_UMAP.png?v=3" alt="chat" width="33%">
 
 
 
