@@ -75,9 +75,14 @@ We used the following filtering criteria:
 
 ## QCs 
 
+#### RNA
+![](figures/NFI_filtered_UMAP_Clusters_RNA_QC.png?v=3) 
+
 #### ATAC 
 ![](figures/NFI_filtered_UMAP_Clusters_ATAC_QC.png?v=3)
 
+#### Combined 
+![](figures/NFI_filtered_UMAP_Clusters_Combined_QC.png?v=3)
 
 ## Per sample UMAP 
 
